@@ -18,6 +18,19 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+  
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-T5BGURO-releases</name>
+        <url>http://localhost:8081/artifactory/tek</url>
+    </repository>
+    <snapshotRepository>
+        <id>central</id>
+        <name>DESKTOP-T5BGURO-snapshots</name>
+        <url>http://localhost:8081/artifactory/tek</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <dependencies>
     <dependency>
