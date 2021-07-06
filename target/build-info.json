@@ -1,0 +1,51 @@
+{
+  "version" : "1.0.1",
+  "name" : "artifact",
+  "number" : "9",
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.6.3"
+  },
+  "agent" : {
+    "name" : "Jenkins",
+    "version" : "2.289.1"
+  },
+  "started" : "2021-07-07T00:05:52.578+0530",
+  "durationMillis" : 4198,
+  "principal" : "pr",
+  "artifactoryPluginVersion" : "3.11.4",
+  "url" : "http://localhost:8080/job/artifact/9/",
+  "vcs" : [ ],
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : false,
+    "licenseViolationsRecipientsList" : "",
+    "scopesList" : ""
+  },
+  "modules" : [ {
+    "properties" : {
+      "project.build.sourceEncoding" : "UTF-8",
+      "maven.compiler.source" : "1.7",
+      "maven.compiler.target" : "1.7"
+    },
+    "type" : "maven",
+    "id" : "test:train:1.0-SNAPSHOT",
+    "repository" : "tek",
+    "artifacts" : [ {
+      "type" : "pom",
+      "sha1" : "b22c4246d2e8d2cbc09bb66a2d256b5e32997a25",
+      "md5" : "ae56d156e486ebd0a1cd13ec76b7349f",
+      "name" : "train-1.0-20210706.183556-4.pom",
+      "path" : "test/train/1.0-20210706.183556-4/train-1.0-20210706.183556-4.pom"
+    } ]
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  }
+}
