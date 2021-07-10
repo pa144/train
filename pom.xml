@@ -51,7 +51,7 @@
 <!-- </build> -->
 
   <build>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+    <plugins><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             
 	    
 	    <plugin>
@@ -59,6 +59,6 @@
           <version>3.0.0</version>
         </plugin>
       
-    </pluginManagement>
+    </plugins>
   </build>
 </project>
